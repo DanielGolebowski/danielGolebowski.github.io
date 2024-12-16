@@ -1,34 +1,38 @@
-h1
-{
-    color: black;
+h1 {
+    color: white;
     font-size: 40pt;
 }
-p
-{
-    color: black;
+
+p {
+    color: white;
     font-size: 12pt;
-    font-family: Helvetica, Courier New, San Serif, Arial
+    font-family: Helvetica, Courier New, Sans-Serif, Arial;
 }
-body
-{
-    color: black;
-    background-color: rgb(50, 148, 240);
-    background-image: url;
+
+body {
+    color: white;
+    background-color: rgb(6, 31, 54);
+    background-image: url('path-to-your-image.jpg'); 
+    border-style: groove;
+    border-width: 50px; 
+    font-family: Helvetica, Arial, sans-serif; 
+    text-align: center;
 }
-b
-{
-    color: black;
+
+b {
+    color: white;
     font-size: 16pt;
     font-family: Arial, Helvetica, sans-serif;
 }
-li
-{
-    color: black;
-    font-size: 12pt;
-    font-family: Helvetica, Courier New, San Serif, Arial
+ul{
+    list-style-position: inside;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    display: table;
 }
-body
-{
-    border-style: groove;
-    border-width: 50;
+li {
+    color: white;
+    font-size: 12pt;
+    font-family: Helvetica, Courier New, Sans-Serif, Arial;
 }
