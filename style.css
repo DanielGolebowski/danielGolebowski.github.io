@@ -16,7 +16,7 @@ body {
     border-style: groove;
     border-width: 75px; 
     font-family: Helvetica, Arial, sans-serif; 
-    margin: 1000px;
+    text-align: left;
   
 }
 
@@ -38,6 +38,7 @@ li {
     font-family: Helvetica, Courier New, Sans-Serif, Arial;
 
 }
+
 
 
 
