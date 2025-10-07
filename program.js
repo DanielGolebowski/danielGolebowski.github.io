@@ -19,6 +19,6 @@ const wyczysc = () =>{
    wynik.innerText = '';
   )
   document.addEvenListner('DOMContentLoaded', () => {
-    document.getElementById ('calcBTN').addEvenListner('click', dodaj);
-    document.getElementById ('clearBTN').addEvenListner('click', wyczysc);
+    document.getElementById ('calcBtn').addEvenListner('click', dodaj);
+    document.getElementById ('clearBtn').addEvenListner('click', wyczysc);
   }};
