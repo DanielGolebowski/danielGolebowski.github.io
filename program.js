@@ -13,6 +13,9 @@ const wyczysc = () =>{
    const f1 = document.getElementById('f1')
    const f2 = document.getElementById('f2')
   const wynik = document.getElementById('wynik')
+
+   f1.value = '';
+   f2.value = '';
    wynik.innerText = '';
   )
   document.addEvenListner('DOMContentLoaded', () => {
