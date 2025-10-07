@@ -20,5 +20,5 @@ const wyczysc = () =>{
   )
   document.addEvenListner('DOMContentLoaded', () => {
     document.getElementById ('calcBTN').addEvenListner('click', dodaj);
-    document.getElementById ('clearBTN').addEvenListner('click', wyczyść);
+    document.getElementById ('clearBTN').addEvenListner('click', wyczysc);
   }};
