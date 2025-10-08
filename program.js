@@ -5,6 +5,7 @@ const dodaj = () => {
 
   const a = parseFloat(f1.value.replace(',', '.')) || 0;
   const b = parseFloat(f2.value.replace(',', '.')) || 0;
+
   wynik.innerText = a + b;
 };
 
@@ -20,5 +21,5 @@ const wyczysc = () => {
 
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('calcBtn').addEventListener('click', dodaj);
-  document.getElementById('clearBtn').addEventListener('click', wyczysc);
+  document.getElementById('clearBTN').addEventListener('click', wyczysc);
 });
