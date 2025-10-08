@@ -21,5 +21,5 @@ const wyczysc = () => {
 
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('calcBtn').addEventListener('click', dodaj);
-  document.getElementById('clearBTN').addEventListener('click', wyczysc);
+  document.getElementById('clearBtn').addEventListener('click', wyczysc);
 });
